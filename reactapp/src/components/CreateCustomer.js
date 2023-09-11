@@ -17,7 +17,7 @@ class CreateCustomer extends Component {
 
   handleCreateCustomer = () => {
     if (!this.state.firstName || !this.state.lastName || !this.state.email) {
-      window.alert('Please fill in all fields');
+      //window.alert('Please fill in all fields');
       return;
     }
 

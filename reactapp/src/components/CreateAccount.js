@@ -16,7 +16,7 @@ class CreateAccount extends Component {
 
   handleCreateAccount = () => {
     if (!this.state.accountNumber) {
-      window.alert('Please enter an account number');
+      //window.alert('Please enter an account number');
       return;
     }
 

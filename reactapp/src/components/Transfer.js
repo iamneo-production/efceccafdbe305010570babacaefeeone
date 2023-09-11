@@ -24,14 +24,14 @@ class Transfer extends Component {
     );
 
     if (isTransferSuccessful) {
-      window.alert(`Successfully transferred $${amount} from ${fromAccount} to ${toAccount}`);
+      //window.alert(`Successfully transferred $${amount} from ${fromAccount} to ${toAccount}`);
       this.setState({
         fromAccount: '',
         toAccount: '',
         amount: '',
       });
     } else {
-      window.alert('Transfer failed. Please check account balances or account numbers.');
+      //window.alert('Transfer failed. Please check account balances or account numbers.');
     }
   };
 

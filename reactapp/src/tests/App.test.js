@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react';
-import App from './tests/App';
+import App from '../App';
 
 // Sample customer data for testing
 const sampleCustomer = {
